@@ -10,16 +10,10 @@ export function Head({ children }: PropsWithChildren) {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
-          <meta
-            name="description"
-            content="Matthew Morrison's personal website."
-          />
-          <meta
-            name="keywords"
-            content="JavaScript, coding, programming, web development"
-          />
-          <meta name="author" content="Matthew Morrison" />
-          <title>morrjm4's blog</title>
+          <meta name="description" content="Your description here." />
+          <meta name="keywords" content="HTML, CSS, JavaScript" />
+          <meta name="author" content="Your name" />
+          <title>My Website</title>
         </head>
       </html>
       <body>{children}</body>
